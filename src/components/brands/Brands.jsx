@@ -1,8 +1,8 @@
 import "./styles.css";
-import hm from "../../images/brands/hm.png";
+import hm from "../../images/brands/HM.png";
 import amazon from "../../images/brands/Amazon.png";
 import lacoste from "../../images/brands/Lacoste.png";
-import levis from "../../images/brands/levis.png";
+import levis from "../../images/brands/Levis.png";
 import obey from "../../images/brands/Obey.png";
 import shopify from "../../images/brands/Shopify.png";
 

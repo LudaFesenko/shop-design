@@ -65,7 +65,45 @@
   border-radius: 8px;
   background: #000;
 }
+@media (max-width: 768px) {
+  .address {
+    padding: 100px 0;
+  }
+  .address__wrap {
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .address__title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .address__text {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
 
+  .input {
+    padding: 20px;
+    width: 374px;
+    height: 87px;
+    border-radius: 10px;
+    background: #fff;
+  }
+
+  .input::placeholder {
+    font-size: 16px;
+  }
+
+  .btnInput {
+    position: absolute;
+    right: 9px;
+    bottom: 8px;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 24px;
+  }
+}
 @media (max-width: 370px) {
   .address {
     padding: 40px 0;

@@ -1,0 +1,39 @@
+.catalogue__item {
+  border-radius: 10px 10px 0 0;
+  width: 30%;
+  margin-bottom: 50px;
+  background: var(--accent-color);
+  overflow: hidden;
+}
+
+.catalogue__img {
+  width: 100%;
+  margin-bottom: 20px;
+  transition: transform 500ms ease;
+}
+.catalogue__img:hover {
+  transform: scale(1.05);
+}
+.catalogue__title {
+  font-size: 30px;
+  font-weight: 600;
+}
+.catalogue__price {
+  font-size: 25px;
+}
+.catalogue__btn {
+  height: 40px;
+  width: 40px;
+  background: #fff;
+  border-radius: 50%;
+  transition: transform 200ms ease-in;
+}
+.catalogue__btn:hover {
+  transform: scale(1.1);
+}
+.catalogue__info {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -55,3 +55,73 @@
   line-height: normal;
   letter-spacing: -0.72px;
 }
+.cart-icon {
+  margin-right: 32px;
+}
+@media (max-width: 370px) {
+  .header {
+    padding: 20px 0;
+  }
+  .header-row {
+    display: flex;
+    column-gap: 14px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header__logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    letter-spacing: 1.2px;
+    color: var(--text-color);
+    width: 30px;
+    height: 30px;
+  }
+  /* .header__nav ul {
+    display: flex;
+    column-gap: 25px;
+    margin-right: 24px;
+  }
+  .header__nav a {
+    color: #000;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.22px;
+  } */
+  .header__nav {
+    display: none;
+  }
+  .header__logo span {
+    font-size: 20px;
+    position: absolute;
+    left: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  .menu {
+    height: 40px;
+    width: 40px;
+    margin-left: auto;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    padding: 40px 0;
+  }
+  .header__logo {
+    font-size: 30px;
+  }
+  .header__nav {
+    display: none;
+  }
+
+  .header__logo {
+    font-size: 30px;
+  }
+  .menu {
+    width: 40px;
+    height: 40px;
+  }
+}

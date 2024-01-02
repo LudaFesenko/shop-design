@@ -1,0 +1,60 @@
+const cartApi = [
+  {
+    id: 1,
+    title: "Fire dress",
+    img: "https://images.unsplash.com/photo-1550614000-4895a10e1bfd?q=80&w=1969&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    count: 1,
+    price: 120.99,
+    priceTotal: 120,
+  },
+  {
+    id: 2,
+    title: "Black swan",
+    img: "https://images.unsplash.com/photo-1568251188392-ae32f898cb3b?q=80&w=2924&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    count: 1,
+    price: 320,
+    priceTotal: 320,
+  },
+  {
+    id: 3,
+    title: "Red Melisandre",
+    count: 1,
+    price: 220,
+    priceTotal: 220,
+    img: "https://images.unsplash.com/photo-1550928431-ee0ec6db30d3?q=80&w=1969&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    id: 4,
+    title: "Small Rose",
+    count: 1,
+    price: 180,
+    priceTotal: 180,
+    img: "https://images.unsplash.com/photo-1622122201714-77da0ca8e5d2?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    id: 5,
+    title: "Angel & Daemon",
+    count: 1,
+    price: 110,
+    priceTotal: 110,
+    img: "https://images.unsplash.com/photo-1552160753-117159821e01?q=80&w=1969&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    id: 6,
+    title: "Burning Flame",
+    count: 1,
+    price: 150,
+    priceTotal: 150,
+    img: "https://images.unsplash.com/photo-1568252542512-9fe8fe9c87bb?q=80&w=2819&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    id: 7,
+    title: "Amazonka",
+    count: 1,
+    price: 125,
+    priceTotal: 125,
+    img: "https://images.unsplash.com/photo-1550402537-6f7b6189b3b6?q=80&w=1969&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+];
+
+export default cartApi;

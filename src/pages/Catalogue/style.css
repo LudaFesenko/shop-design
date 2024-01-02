@@ -1,0 +1,9 @@
+.catalogue {
+  margin-bottom: 63px;
+}
+.img-hero {
+  border-radius: 59px;
+  height: 100px;
+  width: 100%;
+  object-fit: cover;
+}

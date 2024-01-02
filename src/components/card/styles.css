@@ -68,3 +68,29 @@
     left: 0;
   }
 }
+@media (max-width: 768px) {
+  .card__img {
+    width: 484px;
+    height: 704px;
+    border-radius: 10px;
+    margin-bottom: 28px;
+    object-fit: cover;
+  }
+}
+@media (max-width: 370px) {
+  .card__link .card__img {
+    width: 300px;
+    height: 300px;
+
+    margin-bottom: 20px;
+    object-fit: contain;
+  }
+  .card__title {
+    font-size: 24px;
+    margin-bottom: 4px;
+  }
+
+  .card__subTitle {
+    font-size: 20px;
+  }
+}

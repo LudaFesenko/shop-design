@@ -87,3 +87,125 @@
   background-color: var(--accent-color);
   right: -110px;
 }
+@media (max-width: 768px) {
+  .hero {
+    margin-bottom: 54px;
+  }
+
+  .hero__content {
+    flex-direction: column;
+    row-gap: 24px;
+    padding: 0 80px;
+    padding-top: 54px;
+  }
+  .hero__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero__title {
+    text-align: center;
+    max-width: 420px;
+    font-size: 60px;
+  }
+  .hero__desc {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  .hero__btn {
+    padding: 16px 30px;
+    font-size: 20px;
+
+    font-weight: 500;
+
+    letter-spacing: -1.5px;
+  }
+  .hero__img {
+    width: 100%;
+  }
+  .hero__img img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .hightLight {
+    position: relative;
+    display: inline-block;
+    transform: rotate(-2deg);
+  }
+
+  .hightLight span {
+    position: relative;
+  }
+
+  .hightLight::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    top: -15px;
+    bottom: 1px;
+    left: -38px;
+    right: -173px;
+  }
+
+  .hightLight__accent::before {
+    background-color: var(--accent-color);
+    right: -110px;
+  }
+}
+@media (max-width: 370px) {
+  .hero {
+    margin-bottom: 20px;
+  }
+  .hero__content {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 28px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .hero__title {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero__title .hightLight::before {
+    top: -2px;
+    bottom: 1px;
+    left: 57px;
+    right: 80px;
+  }
+  .hero__title .hightLight__accent::before {
+    background-color: var(--accent-color);
+    right: 58px;
+  }
+  .hero__btn-wrapper {
+    display: flex;
+    flex-direction: column;
+    column-gap: 0;
+  }
+  .hero__btn {
+    padding: 14px;
+
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -1.5px;
+    margin-bottom: 20px;
+  }
+  .hero__img {
+    width: 100%;
+  }
+  .hero__img img {
+    border-radius: unset;
+  }
+  .hero__desc {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 3px;
+  }
+}

@@ -65,3 +65,42 @@
   border-radius: 8px;
   background: #000;
 }
+
+@media (max-width: 370px) {
+  .address {
+    padding: 40px 0;
+  }
+  .address__wrap {
+    max-width: 300px;
+  }
+  .address__title {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  .address__text {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .input__wrap {
+    display: flex;
+  }
+  .input {
+    padding: 16px 20px 16px 20px;
+    width: 100%;
+    height: 57px;
+  }
+
+  .input::placeholder {
+    font-family: Poppins;
+    font-size: 14px;
+  }
+
+  .btnInput {
+    position: absolute;
+    right: 6px;
+    bottom: 2px;
+
+    font-size: 20px;
+    padding: 16px 25px;
+  }
+}

@@ -30,10 +30,16 @@
 }
 .catalogue__btn:hover {
   transform: scale(1.1);
+  background-color: rgb(231, 185, 232);
+  color: #fff;
 }
 .catalogue__info {
   padding: 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.catalogue__price {
+  color: rgb(90, 21, 85);
+  font-weight: 600;
 }

@@ -1,5 +1,6 @@
 .header {
   padding: 46px 0px 56px 0;
+  position: relative;
 }
 .header-row {
   display: flex;
@@ -57,6 +58,27 @@
 }
 .cart-icon {
   margin-right: 32px;
+}
+.cart-icon-btn {
+  cursor: pointer;
+  transition: color, transform 500ms ease;
+}
+.cart-icon-btn:hover,
+.cart-icon-btn.active {
+  color: var(--accent-color);
+  transform: scale(1.3);
+}
+.menu {
+  display: none;
+}
+.shop-cart {
+  position: absolute;
+  top: 120px;
+  right: 20px;
+  width: 550px;
+  background-color: #f1d0dd;
+
+  min-height: 100px;
 }
 @media (max-width: 370px) {
   .header {

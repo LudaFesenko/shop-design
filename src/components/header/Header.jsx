@@ -1,11 +1,17 @@
-import "./styled.css";
+import { NavLink } from "react-router-dom";
+import { useState } from "react";
 import { IoDiamond } from "react-icons/io5";
-// import { FaCartPlus } from "react-icons/fa6";
 import { RiHandbagLine } from "react-icons/ri";
 import { IoMdMenu } from "react-icons/io";
 
-import { NavLink } from "react-router-dom";
+import "./styled.css";
+
 function Header() {
+  const [cartOpen, setCartOpen] = useState(false);
+
+  const toggle = () => {
+    setCartOpen((cartOpen) => !cartOpen);
+  };
   return (
     <header className="header">
       <div className="container">
@@ -31,9 +37,14 @@ function Header() {
                 <NavLink to="/lifestyle">LIFESTYLE</NavLink>
               </li>
             </ul>
-            <NavLink className="cart-icon" to="/cart">
-              <RiHandbagLine size={50} />
+            {/* <NavLink className="cart-icon" to="/cart"> */}
+            <NavLink className="cart-icon">
+              <RiHandbagLine
+                onClick={toggle}
+                className={`cart-icon-btn ${cartOpen && "active"}`}
+              />
             </NavLink>
+            {cartOpen && <div className="shop-cart"></div>}
             <div>
               <div className="header-btn">
                 <a href="!#">SIGN UP</a>

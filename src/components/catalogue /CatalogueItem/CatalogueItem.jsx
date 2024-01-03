@@ -1,3 +1,4 @@
+import CatalogueBtn from "./CatalogueBtn";
 import "./style.css";
 
 function CatalogueItem({ products }) {
@@ -10,9 +11,7 @@ function CatalogueItem({ products }) {
             <h2 className="catalogue__title">{product.title}</h2>
             <p className="catalogue__price">{product.price} $</p>
           </div>
-          <button type="button" className="catalogue__btn">
-            +
-          </button>
+          <CatalogueBtn product={product} />
         </div>
       </li>
     );
